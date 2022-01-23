@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+
+.navbar-brand span {
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.navbar-item {
+  padding: 0 10px;
+}
+
+#loginbtn {
+  margin: 0 10px 0 10px;
+}
+
+.nav-link.colornav {
+  color: #fff !important;
+}
+#nav-toggler-icon {
+  color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255,0.8)'  stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #fff;
+}
+
+/* banner */
+#banner {
+  position: relative;
+  background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+.banner-img {
+  position: relative;
+  z-index: 1000;
+  margin: 20px;
+}
+
+#title {
+  margin: 10px 0px;
+}
+
+.wave {
+  position: absolute;
+  bottom: -0%;
+  left: 0;
+}
+
+/* section */
+.section_title {
+  max-width: 80rem;
+  margin: 0 auto 8rem auto;
+}
+
+.section_description {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* color: var(--color-primary); */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section_header {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* features */
+.features_feature1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  float: right;
+}
+
+.features_feature2 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  float: left;
+}
+
+.features_feature3 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  float: right;
+}
